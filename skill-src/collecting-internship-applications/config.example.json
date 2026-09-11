@@ -1,0 +1,5 @@
+{
+  "tracker_csv": "/absolute/path/to/job-search/Intership_Information.csv",
+  "resume_template": "/absolute/path/to/resume/editable-template.docx",
+  "resume_output_root": "/absolute/path/to/job-search/tailored-resumes"
+}

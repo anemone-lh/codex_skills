@@ -1,0 +1,4 @@
+interface:
+  display_name: "实习求职信息与定制简历"
+  short_description: "整理实习岗位信息并按岗位要求生成可直接投递的定制简历文件"
+  default_prompt: "整理我提供的实习或求职链接；按需为选中岗位生成定制简历。"
