@@ -1,6 +1,20 @@
 # Codex Skills
 
-Personal Codex skills maintained as portable, testable packages. The repository currently includes `collecting-internship-applications`, which extracts job information from supplied URLs and can produce a role-targeted resume from a local template.
+Personal Codex skills maintained as portable, testable packages. The repository includes `ux-designer` for product UX design and `collecting-internship-applications`, which extracts job information from supplied URLs and can produce a role-targeted resume from a local template.
+
+## UX Designer
+
+Source: [`skill-src/ux-designer`](skill-src/ux-designer)
+
+User-centered workflow and layout design, evidence-based usability and visual-style reviews, and self-contained implementation or Herdr builder prompts. Optional references cover Soft UI and macOS Vibrancy adaptation; neither style is forced on unrelated projects. No application configuration is required.
+
+Copy `skill-src/ux-designer` into your Codex skills directory, then invoke:
+
+```text
+Use $ux-designer to review this product's workflow and layout, explain the tradeoffs, and produce an implementation-ready builder prompt.
+```
+
+Design and prompt requests do not automatically modify applications or control Herdr. Source review, screenshot inspection, platform testing, and user research are reported separately.
 
 ## Collecting Internship Applications
 

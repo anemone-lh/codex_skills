@@ -1,6 +1,20 @@
 # Codex Skills
 
-本仓库用于维护可移植、可测试的个人 Codex Skills。目前包含 `collecting-internship-applications`：它可以从用户提供的招聘链接中提取职位信息，并根据本地简历模板生成针对特定岗位的定制简历。
+本仓库用于维护可移植、可测试的个人 Codex Skills。目前包含用于产品体验设计的 `ux-designer`，以及 `collecting-internship-applications`：它可以从用户提供的招聘链接中提取职位信息，并根据本地简历模板生成针对特定岗位的定制简历。
+
+## UX Designer
+
+源码：[`skill-src/ux-designer`](skill-src/ux-designer)
+
+以用户需求为中心设计流程、布局与交互，依据证据审查可用性和视觉风格，并交付可直接使用的实施方案或 Herdr builder 提示词。按需参考 Soft UI 与 macOS Vibrancy 适配规则，不把特定风格强制应用到其他项目。无需额外应用配置。
+
+将 `skill-src/ux-designer` 复制到 Codex skills 目录后使用：
+
+```text
+使用 $ux-designer 检查这个产品的用户流程和布局，说明设计依据与开发取舍，并给出可执行的 builder 提示词。
+```
+
+设计和提示词请求不会自动修改应用或控制 Herdr；源码检查、截图检查、平台实测及用户研究分别报告。
 
 ## Collecting Internship Applications
 
